@@ -11,6 +11,7 @@ This project demonstrates web scraping using Python to collect quotes from [quot
 - `requirements.txt` — Lists required Python packages.
 
 ## Setup
+
 1. **Create a virtual environment:**
 
    - **Mac/Linux:**
@@ -33,15 +34,15 @@ This project demonstrates web scraping using Python to collect quotes from [quot
 3. **Run the scraper:**
 
    ```sh
-   python scraper_python.py
+   python web_scarping/scraper_python.py
    ```
 
    This will create/update `scraped_quotes.csv`.
 
-4. **Analyze the dataset:**
+4. **Read the dataset:**
 
    ```sh
-   python read_dataset.py
+   python web_scarping/read_dataset.py
    ```
 
 ## Requirements
