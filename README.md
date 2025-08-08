@@ -4,9 +4,10 @@ This project demonstrates web scraping using Python to collect quotes from [quot
 
 ## Project Structure
 
-- `scraper_python.py` — Scrapes quotes from the website and saves them to `scraped_quotes.csv`.
+- `web_scarping/`
+  - `scraper_python.py` — Scrapes quotes from the website and saves them to `scraped_quotes.csv`.
+  - `read_dataset.py` — Reads and analyzes the CSV dataset using pandas.
 - `scraped_quotes.csv` — The dataset containing scraped quotes, authors, and tags.
-- `read_dataset.py` — Reads and analyzes the CSV dataset using pandas.
 - `requirements.txt` — Lists required Python packages.
 
 ## Setup
